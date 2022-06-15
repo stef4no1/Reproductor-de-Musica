@@ -1,0 +1,94 @@
+/* Resets */
+* { 
+    box-sizing: border-box;
+}
+html, body {
+    height: 100%;
+}
+body {
+    font-family: sans-serif;
+    background-color: lighgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+
+/* Card */
+.player {
+    min-width: 320px;
+    background-image: linear-gradient(rgb(157, 157, 157), rgb(38, 38, 38));
+    border-radius: 1rem;
+    padding: 2rem;
+    color: white;
+}
+
+/* Titulo */
+.title {
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Cover */
+.cover {
+    width: 128px;
+    height: auto;
+    border-radius: .3rem;
+    display: block;
+    margin: 0 auto 1rem auto;
+}
+
+/* Barrita del progreso */
+.progress-container {
+    height: .6rem;
+    background-color: lightgray;
+    margin-bottom: 1rem;
+}
+.progress {
+    background-color: rgb(32, 218, 41);
+    width: 0;
+    height: 100%;
+}
+
+/* Controles */
+.controls {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 1rem;
+}
+.controls button {
+    background-color: transparent;
+    border: none;
+}
+.controls i {
+    font-size: 1.7rem;
+    color: white;
+    cursor: pointer;
+}
+.controls i:hover{
+    color: black;
+}
+
+/* Musica */
+.songs {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.songs li {
+    margin-bottom: 1rem;
+}
+.songs a {
+    color: lightgray;
+    text-decoration: none;
+}
+.songs a.active {
+    color: white;
+    font-weight: bold;
+}
+
+/* Img */
+img{
+    max-width: 300px;
+    max-height: 300px;
+}
